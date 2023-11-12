@@ -23,3 +23,5 @@ Enable JSON Features using the following SQL Command (these can be run in SQL de
 
 ALTER SYSTEM SET enable_ddl_logging=TRUE SCOPE=SPFILE;
 ALTER SYSTEM SET enable_pluggable_database=TRUE SCOPE=SPFILE;
+
+Run the table creation script.
