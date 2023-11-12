@@ -19,3 +19,7 @@ Setting up the connection in SQL Developer:
 
 ![image](https://github.com/cargo98/Database-Group13/assets/45134207/1d3918bc-9075-4596-ad7f-c67a1e2676b9)
 
+Enable JSON Features using the following SQL Command (these can be run in SQL developer from now on):
+
+ALTER SYSTEM SET enable_ddl_logging=TRUE SCOPE=SPFILE;
+ALTER SYSTEM SET enable_pluggable_database=TRUE SCOPE=SPFILE;
